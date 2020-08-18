@@ -1911,6 +1911,10 @@ input, select, textarea {
 
 				.box.style2 header p {
 					padding: 0;
+					padding-bottom: 20px;
+			    padding-top: 20px;
+					padding-left: 20px;
+					padding-right: 20px;
 				}
 
 			.box.style2 .inner {
@@ -2027,7 +2031,7 @@ input, select, textarea {
 				font-size: 1em;
 				text-transform: uppercase;
 				letter-spacing: 3px;
-				padding: 0;
+				padding: 35;
 				margin-top: 0.35em;
 			}
 
@@ -2380,18 +2384,9 @@ input, select, textarea {
 
 			header p {
 				margin: 0.25em 0 0 0;
-				padding-bottom: 20px;
-		    padding-top: 20px;
-				padding-left: 20px;
-				padding-right: 20px;
 			}
 
-			p {
-				padding-bottom: 25px;
-				padding-top: 25px;
-				padding-left: 25px;
-				padding-right: 25px;
-			}
+
 
 /* Mobile */
 
