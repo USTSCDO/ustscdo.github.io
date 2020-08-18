@@ -241,14 +241,6 @@ input, select, textarea {
 
 		}
 
-		.gbox {
-		    border-style: none!important;
-		    padding-bottom: 20px;
-		    padding-top: 20px;
-				padding-left: 20px;
-				padding-right: 20px;
-		}
-
 
 /* Row */
 
@@ -2380,7 +2372,10 @@ input, select, textarea {
 
 			header p {
 				margin: 0.25em 0 0 0;
-				padding: 0 0 0.5em 0;
+				padding-bottom: 20px;
+		    padding-top: 20px;
+				padding-left: 20px;
+				padding-right: 20px;
 			}
 
 		/* Box */
