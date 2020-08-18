@@ -55,7 +55,6 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -206,11 +205,7 @@ input, select, textarea {
 		header p {
 			display: block;
 			margin: 0.5em 0 0 0;
-			padding-bottom: 20px;
-			padding-top: 20px;
-			padding-left: 20px;
-			padding-right: 20px;
-
+			padding: 0 0 1.5em 0;
 		}
 
 	footer {
@@ -244,7 +239,6 @@ input, select, textarea {
 			}
 
 		}
-
 
 /* Row */
 
@@ -1911,10 +1905,6 @@ input, select, textarea {
 
 				.box.style2 header p {
 					padding: 0;
-					padding-bottom: 20px;
-			    padding-top: 20px;
-					padding-left: 20px;
-					padding-right: 20px;
 				}
 
 			.box.style2 .inner {
@@ -2031,7 +2021,7 @@ input, select, textarea {
 				font-size: 1em;
 				text-transform: uppercase;
 				letter-spacing: 3px;
-				padding: 35;
+				padding: 0;
 				margin-top: 0.35em;
 			}
 
@@ -2122,10 +2112,6 @@ input, select, textarea {
 
 		#banner p {
 			margin: 0;
-			padding-bottom: 20px;
-			padding-top: 20px;
-			padding-left: 20px;
-			padding-right: 20px;
 		}
 
 		#banner footer {
@@ -2384,9 +2370,62 @@ input, select, textarea {
 
 			header p {
 				margin: 0.25em 0 0 0;
+				padding: 0 0 0.5em 0;
 			}
 
+		/* Box */
 
+			.box {
+				position: relative;
+			}
+
+				.box section {
+					margin: 0 0 2em 0;
+				}
+
+				.box.style1 {
+					padding: 2.5em 2em 2.5em 2em;
+				}
+
+					.box.style1.right .inner {
+						padding-left: 2em;
+					}
+
+					.box.style1.left .inner {
+						padding-right: 2em;
+					}
+
+				.box.style2 header {
+					padding: 2em;
+				}
+
+				.box.style2 .inner {
+					position: relative;
+					padding: 30px 0 0 0;
+				}
+
+				.box.style3 {
+					padding: 2.5em 2em 2.5em 2em;
+				}
+
+		/* Header */
+
+			#header {
+				padding: 10em 0 12em 0;
+			}
+
+		/* Banner */
+
+			#banner {
+				padding: 3.5em;
+				background-size: 200% auto;
+			}
+
+				#banner br {
+					display: none;
+				}
+
+	}
 
 /* Mobile */
 
